@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../components/Button';
+import Button from '@/components/Button';
 
 const LandingPage = () => {
   return (
@@ -7,7 +7,7 @@ const LandingPage = () => {
       <h1 className="text-3xl font-bold mb-8">Button Variations</h1>
       
       <div className="space-y-6">
-        {/* Size Variations */}
+        
         <section>
           <h2 className="text-xl font-semibold mb-4">Size Variations</h2>
           <div className="flex gap-4 items-center">
@@ -17,7 +17,6 @@ const LandingPage = () => {
           </div>
         </section>
 
-        {/* Shape Variations */}
         <section>
           <h2 className="text-xl font-semibold mb-4">Shape Variations</h2>
           <div className="flex gap-4 items-center">
@@ -27,7 +26,6 @@ const LandingPage = () => {
           </div>
         </section>
 
-        {/* Custom Style Example */}
         <section>
           <h2 className="text-xl font-semibold mb-4">Custom Styles</h2>
           <div className="flex gap-4 items-center">
